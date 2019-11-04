@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class AccountController {
     @RequestMapping(value = "/findAccount",method = RequestMethod.POST)
     public String findAccount(Integer accountId){
-        System.out.println("查询了账户。。。。"+accountId);
+        System.out.println("查询了账户helloworld"+accountId);
         return "success";
     }
 }
